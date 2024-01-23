@@ -11,6 +11,7 @@
 </p>
 
 Help Insight, um recurso do IDE do Delphi que exibe um popup com uma breve descrição sobre o identificador (classe, método, função, variável, ...) na qual o cursor do mouse está posicionado.
+
 Veremos neste repositório/artigo criar e personalizar Help Insight para nassas aplicações.
 
 ## 📞 Contatos
