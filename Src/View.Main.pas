@@ -14,18 +14,39 @@ uses
   Vcl.Dialogs,
   Vcl.StdCtrls,
   Vcl.ExtCtrls,
+  Vcl.Imaging.pngimage,
+  ShellAPI,
   Types,
   Utils;
 
 type
   TViewMain = class(TForm)
-    Panel9: TPanel;
-    btnMultiplicar: TButton;
+    pnBackTop: TPanel;
+    btnUsandoEmMetodos: TButton;
     btnUsandoEmEnums: TButton;
-    procedure btnMultiplicarClick(Sender: TObject);
+    Panel6: TPanel;
+    pnBackLogoELinks: TPanel;
+    GroupBox1: TGroupBox;
+    pnBackLinks01: TPanel;
+    Label2: TLabel;
+    lbRepositorio: TLabel;
+    Label4: TLabel;
+    pnBackLinks02: TPanel;
+    lbYoutube: TLabel;
+    lbTelegram: TLabel;
+    lbGitHub: TLabel;
+    lbLinkedIn: TLabel;
+    pnBackLogo: TPanel;
+    Image1: TImage;
+    btnUsandoEmVariaveis: TButton;
+    Button1: TButton;
+    procedure btnUsandoEmMetodosClick(Sender: TObject);
     procedure btnUsandoEmEnumsClick(Sender: TObject);
+    procedure lbRepositorioClick(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
+    procedure btnUsandoEmVariaveisClick(Sender: TObject);
   private
-
+    FTest: string;
   public
 
   end;
@@ -37,7 +58,12 @@ implementation
 
 {$R *.dfm}
 
-procedure TViewMain.btnMultiplicarClick(Sender: TObject);
+procedure TViewMain.lbRepositorioClick(Sender: TObject);
+begin
+  ShellExecute(0, nil, PChar(TLabel(Sender).Hint), '', '', SW_ShowNormal);
+end;
+
+procedure TViewMain.btnUsandoEmMetodosClick(Sender: TObject);
 var
   LResult: Double;
 begin
@@ -61,10 +87,26 @@ begin
   ShowMessage(LMsg);
 end;
 
+procedure TViewMain.btnUsandoEmVariaveisClick(Sender: TObject);
+var
+  /// <summary> 'Isso não sera exibido' </summary>
+  LTest: string;
+begin
+  LTest := 'Recurso funciona apenas para variáveis de instancias (declaradas no escopo private ou public das classes)';
+  ShowMessage(LTest);
+end;
+
+procedure TViewMain.Button1Click(Sender: TObject);
+begin
+  FTest := 'Testando';
+  ShowMessage(FTest);
+end;
+
 //LINKS UTEIS
 //https://docwiki.embarcadero.com/RADStudio/Athens/en/Help_Insight
 //https://docwiki.embarcadero.com/RADStudio/Athens/en/XML_Documentation_Comments
 
+//ALTERAR O LAYOUT DO POPUP
 //ARQUIVO C:\Program Files (x86)\Embarcadero\Studio\20.0\ObjRepos\en\HelpInsight.xsl
 //ARQUIVO C:\Program Files (x86)\Embarcadero\Studio\20.0\ObjRepos\en\HelpInsight.css
 //ARQUIVO C:\Program Files (x86)\Embarcadero\Studio\20.0\ObjRepos\en\HelpInsight_Dark.css
