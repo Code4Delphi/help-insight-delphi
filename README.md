@@ -39,9 +39,19 @@ Veremos neste repositório/artigo criar e personalizar Help Insight para nassas 
 > [!IMPORTANT]
 > ### ⭐ Não se esqueça de deixar sua estrela para ajudar a propagar o repositório.
 
-Help Insight, esse é um recurso do IDE do Delphi que apresenta um popup com uma breve descrição sobre o identificador (classe, método, função, variável, ...) na qual o cursor do mouse está posicionado.
+## O QUE É HELP INSIGHT?
+Help Insight, esse é um recurso do IDE do Delphi que apresenta um popup com uma breve descrição sobre o identificador (classe, método, função, variável, Enumerados, ...) na qual o cursor do mouse está posicionado no Editor de Códigos.
 Também é possível invocar o Help Insight através do pressionamento das teclas CTRL + SHIFT + H.
 
 
-As tags XML aceitas:
+## HELP INSIGHT PADRÕES
+* Por padrão, o IDE do Delphi gera e exibe automáticamente dados básicos, e exibe um popup com as seguintes informações:
+
+![Help-Insight-Default-Variables.png](https://github.com/Code4Delphi/help-insight-delphi/blob/master/Images/Help-Insight-Default-Variables.png)
+
+* Para function ou procedure, é exibido também o(s) parâmetro(s) e o valor de retorno:
+
+![Help-Insight-Default-Methods.png](https://github.com/Code4Delphi/help-insight-delphi/blob/master/Images/Help-Insight-Default-Methods.png)
+ 
+
 
