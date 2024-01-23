@@ -10,11 +10,8 @@
   <img alt="Code4Delphi" height="100" src="https://github.com/Code4Delphi/diretivas-de-compilacao-delphi/assets/33873267/7191065f-96f6-46ed-aae4-4c4d3027b717">
 </p>
 
-Nesse diretório você encontrara vários exemplos do uso de diretivas de compilação com o Delphi.
-
-Abaixo descrevemos diversos exemplo de uso, e no projeto você encontrara exemplos completos e práticos de uso das diretivas.
-
-
+Help Insight, um recurso do IDE do Delphi que exibe um popup com uma breve descrição sobre o identificador (classe, método, função, variável, ...) na qual o cursor do mouse está posicionado.
+Veremos neste repositório/artigo criar e personalizar Help Insight para nassas aplicações.
 
 ## 📞 Contatos
 
