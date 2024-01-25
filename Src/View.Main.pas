@@ -20,9 +20,10 @@ uses
   Utils;
 
 type
-  /// <summary> Para realizar o cálculo, use tcSim; caso contrário, use tcNao. </summary>
+  /// <summary> Usando em enums, use tcSim; caso contrário, use tcNao. </summary>
   TCalcular = (tcSim, tcNao);
 
+  /// <summary> Usando Help Insight para classes. </summary>
   TViewMain = class(TForm)
     pnBackTop: TPanel;
     btnUsandoEmMetodos: TButton;
@@ -41,15 +42,17 @@ type
     lbLinkedIn: TLabel;
     pnBackLogo: TPanel;
     Image1: TImage;
-    btnUsandoEmVariaveis: TButton;
-    Button1: TButton;
-    Panel9: TPanel;
+    btnUsandoEmVariaveisLocais: TButton;
+    btnUsandoEmVariaveisDeInstancia: TButton;
+    btnConstantes: TButton;
     procedure btnUsandoEmMetodosClick(Sender: TObject);
     procedure btnUsandoEmEnumsClick(Sender: TObject);
     procedure lbRepositorioClick(Sender: TObject);
-    procedure Button1Click(Sender: TObject);
-    procedure btnUsandoEmVariaveisClick(Sender: TObject);
+    procedure btnUsandoEmVariaveisDeInstanciaClick(Sender: TObject);
+    procedure btnUsandoEmVariaveisLocaisClick(Sender: TObject);
+    procedure btnConstantesClick(Sender: TObject);
   private
+    /// <summary> Usando Help Insight para variáveis de instância </summary>
     FTest: string;
   public
 
@@ -91,20 +94,31 @@ begin
   ShowMessage(LMsg);
 end;
 
-procedure TViewMain.btnUsandoEmVariaveisClick(Sender: TObject);
+procedure TViewMain.btnUsandoEmVariaveisLocaisClick(Sender: TObject);
 var
-  /// <summary> 'Isso não sera exibido' </summary>
+  /// <summary> Recurso não suportado para variáveis locais </summary>
   LTest: string;
 begin
   LTest := 'Recurso funciona apenas para variáveis de instância (declaradas no escopo private ou public das classes)';
   ShowMessage(LTest);
 end;
 
-procedure TViewMain.Button1Click(Sender: TObject);
+procedure TViewMain.btnUsandoEmVariaveisDeInstanciaClick(Sender: TObject);
 begin
-  FTest := 'Testando';
+  //PARA TESTAR: REPOUSE O MOUSE SOBRE FTest
+  FTest := 'Funciona normalmente em variável de instância';
   ShowMessage(FTest);
 end;
+
+procedure TViewMain.btnConstantesClick(Sender: TObject);
+const
+  /// <summary> Recurso suportado em constantes </summary>
+  TESTE = 'Constante teste';
+begin
+  //PARA TESTAR: REPOUSE O MOUSE SOBRE TESTE
+  ShowMessage(TESTE);
+end;
+
 
 //LINKS UTEIS
 //https://docwiki.embarcadero.com/RADStudio/Athens/en/Help_Insight

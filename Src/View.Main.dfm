@@ -33,7 +33,7 @@ object ViewMain: TViewMain
       Width = 552
       Height = 25
       Align = alTop
-      Caption = 'Usando em procedure/function'
+      Caption = 'Procedure/function (suportado)'
       TabOrder = 0
       OnClick = btnUsandoEmMetodosClick
     end
@@ -43,29 +43,42 @@ object ViewMain: TViewMain
       Width = 552
       Height = 25
       Align = alTop
-      Caption = 'Usando em enums'
+      Caption = 'Enumerados  (suportado)'
       TabOrder = 1
       OnClick = btnUsandoEmEnumsClick
     end
-    object btnUsandoEmVariaveis: TButton
-      Left = 20
-      Top = 70
-      Width = 552
-      Height = 25
-      Align = alTop
-      Caption = 'Usando em variaveis'
-      TabOrder = 2
-      OnClick = btnUsandoEmVariaveisClick
-    end
-    object Button1: TButton
+    object btnUsandoEmVariaveisLocais: TButton
       Left = 20
       Top = 95
       Width = 552
       Height = 25
       Align = alTop
-      Caption = 'Outros'
+      Caption = 'Vari'#225'vel local (n'#227'o suportado)'
+      TabOrder = 2
+      OnClick = btnUsandoEmVariaveisLocaisClick
+      ExplicitTop = 142
+    end
+    object btnUsandoEmVariaveisDeInstancia: TButton
+      Left = 20
+      Top = 70
+      Width = 552
+      Height = 25
+      Align = alTop
+      Caption = 'Vari'#225'vel de inst'#226'ncia  (suportado)'
       TabOrder = 3
-      OnClick = Button1Click
+      OnClick = btnUsandoEmVariaveisDeInstanciaClick
+      ExplicitTop = 64
+    end
+    object btnConstantes: TButton
+      Left = 20
+      Top = 120
+      Width = 552
+      Height = 25
+      Align = alTop
+      Caption = 'Constantes (suportado)'
+      TabOrder = 4
+      OnClick = btnConstantesClick
+      ExplicitTop = 207
     end
   end
   object Panel6: TPanel
@@ -599,16 +612,6 @@ object ViewMain: TViewMain
           ExplicitTop = -5
           ExplicitWidth = 101
           ExplicitHeight = 111
-        end
-        object Panel9: TPanel
-          Left = 0
-          Top = 0
-          Width = 111
-          Height = 109
-          Align = alClient
-          BevelOuter = bvNone
-          ParentBackground = False
-          TabOrder = 0
         end
       end
     end

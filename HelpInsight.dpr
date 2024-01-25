@@ -3,8 +3,7 @@ program HelpInsight;
 uses
   Vcl.Forms,
   View.Main in 'Src\View.Main.pas' {ViewMain},
-  Utils in 'Src\Utils.pas',
-  Types in 'Src\Types.pas';
+  Utils in 'Src\Utils.pas';
 
 {$R *.res}
 
