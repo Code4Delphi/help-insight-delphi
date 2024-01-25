@@ -40,6 +40,7 @@ type
     Image1: TImage;
     btnUsandoEmVariaveis: TButton;
     Button1: TButton;
+    Panel9: TPanel;
     procedure btnUsandoEmMetodosClick(Sender: TObject);
     procedure btnUsandoEmEnumsClick(Sender: TObject);
     procedure lbRepositorioClick(Sender: TObject);

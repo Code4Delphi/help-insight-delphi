@@ -36,9 +36,6 @@ object ViewMain: TViewMain
       Caption = 'Usando em procedure/function'
       TabOrder = 0
       OnClick = btnUsandoEmMetodosClick
-      ExplicitLeft = 40
-      ExplicitTop = 24
-      ExplicitWidth = 500
     end
     object btnUsandoEmEnums: TButton
       Left = 20
@@ -49,9 +46,6 @@ object ViewMain: TViewMain
       Caption = 'Usando em enums'
       TabOrder = 1
       OnClick = btnUsandoEmEnumsClick
-      ExplicitLeft = 40
-      ExplicitTop = 49
-      ExplicitWidth = 500
     end
     object btnUsandoEmVariaveis: TButton
       Left = 20
@@ -62,7 +56,6 @@ object ViewMain: TViewMain
       Caption = 'Usando em variaveis'
       TabOrder = 2
       OnClick = btnUsandoEmVariaveisClick
-      ExplicitTop = 64
     end
     object Button1: TButton
       Left = 20
@@ -73,7 +66,6 @@ object ViewMain: TViewMain
       Caption = 'Outros'
       TabOrder = 3
       OnClick = Button1Click
-      ExplicitTop = 126
     end
   end
   object Panel6: TPanel
@@ -156,7 +148,7 @@ object ViewMain: TViewMain
             Hint = 'https://github.com/Code4Delphi/help-insight-delphi'
             Align = alTop
             AutoSize = False
-            Caption = 'Reposit'#243'rio Help Insight'
+            Caption = 'Reposit'#243'rio Help Insight no GitHub'
             Font.Charset = ANSI_CHARSET
             Font.Color = clBlue
             Font.Height = -12
@@ -607,6 +599,20 @@ object ViewMain: TViewMain
           ExplicitTop = -5
           ExplicitWidth = 101
           ExplicitHeight = 111
+        end
+        object Panel9: TPanel
+          Left = 0
+          Top = 0
+          Width = 111
+          Height = 109
+          Align = alClient
+          BevelOuter = bvNone
+          ParentBackground = False
+          TabOrder = 0
+          ExplicitLeft = 15
+          ExplicitTop = 36
+          ExplicitWidth = 185
+          ExplicitHeight = 41
         end
       end
     end
