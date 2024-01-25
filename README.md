@@ -42,11 +42,11 @@ Também é possível invocar o Help Insight precionando as teclas CTRL + SHIFT +
 <br/>
 
 ## HELP INSIGHT PADRÕES
-* Por padrão, o IDE do Delphi gera automáticamente e exibe dados básicos dos identificadores, com as seguintes informações:
+Por padrão, o IDE do Delphi gera automáticamente e exibe dados básicos dos identificadores, com as seguintes informações:
 
 ![Help-Insight-Default-Variables.png](https://github.com/Code4Delphi/help-insight-delphi/blob/master/Images/Help-Insight-Default-Variables.png)
 
-* Para function ou procedure, é exibido também o(s) parâmetro(s) e o valor de retorno:
+Para function ou procedure, é exibido também o(s) parâmetro(s) e o valor de retorno:
 
 ![Help-Insight-Default-Methods.png](https://github.com/Code4Delphi/help-insight-delphi/blob/master/Images/Help-Insight-Default-Methods.png)
  
