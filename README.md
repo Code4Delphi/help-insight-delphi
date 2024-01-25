@@ -6,9 +6,9 @@
 
 # Help Insight **Delphi**
 
-<p align="center">
+<!--<p align="center">
   <img alt="Code4Delphi" height="100" src="https://github.com/Code4Delphi/diretivas-de-compilacao-delphi/assets/33873267/7191065f-96f6-46ed-aae4-4c4d3027b717">
-</p>
+</p> -->
 
 Help Insight, um recurso do IDE do Delphi que exibe um popup com uma breve descrição sobre o identificador (classe, método, função, variável, ...) na qual o cursor do mouse está posicionado.
 
@@ -34,11 +34,6 @@ Veremos neste repositório/artigo criar e personalizar Help Insight para nassas 
   </a>
 </p>
 
-<br/>
-
-> [!IMPORTANT]
-> ### ⭐ Não se esqueça de deixar sua estrela para ajudar a propagar o repositório.
-
 ## O QUE É HELP INSIGHT?
 Help Insight, é um recurso do IDE do Delphi que apresenta um popup com uma breve descrição sobre o identificador (classe, procedure, function, variável, Enumerado, ...) a qual o cursor do mouse está posicionado no Editor de Códigos.
 Também é possível invocar o Help Insight precionando as teclas CTRL + SHIFT + H.
@@ -59,13 +54,13 @@ Tudo isso é gerado automáticamente em tempo de edição, ou seja, **sem necess
 Embora as informações geradas automáticamente pelo IDE já nos ajudem bastante, o Delphi nos proporciona a possibilidade de customizar de uma forma muito simples, o conteúdo e até mesmo o designer do popup exibido.
 
 Com isso podemos adicionar mais detalhes, e criar uma espécie de "documentação" de nossos identificadores.
-Para isso, devemos adicionar comentários com uma formatados especial ao nosso código fonte. 
+Para isso, devemos adicionar comentários com uma formatação especial ao nosso código fonte. 
 
 Esses comentários devem estar imediatamente acima do identificador, e devem começar com **/// (três barras)** seguido por uma tag XML reconhecida pelo Help Insight viewer, como no exemplo a seguir:
 
+![Images/Add-Summary-Simples.png](https://github.com/Code4Delphi/help-insight-delphi/blob/master/Images/Add-Summary-Simples.png)
 
-
-
+Note que o texto adicionado na tag \<summary> é exibido no popup menu do Help Insight
 
 
 
