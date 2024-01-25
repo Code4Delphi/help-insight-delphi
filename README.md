@@ -152,7 +152,15 @@ Esses comentários devem estar imediatamente acima do identificador, e devem com
 ```
 
 ## ONDE O HELP INSIGHT PODE SER USADO?
-* Help Insight podem ser utilizados em classes, procedures, functions, constantes, enumerados e para variáveis de instância. Os recurso do Help Insight **não são suportados** para variáveis locais (declaradas nos métodos)
+* Help Insight podem ser utilizados em:
+
+- [x] Classes
+- [x] Procedures
+- [x] Functions
+- [x] Constantes
+- [x] Enumerados
+- [x] Variáveis de instância (declaradas no escopo private, protected, public ou published das classes)'
+- [ ] Variáveis locais **não são suportados** pelo Help Insight
 
 <br/>
 
