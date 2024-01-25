@@ -151,6 +151,21 @@ Esses comentários devem estar imediatamente acima do identificador, e devem com
 <see cref="string"/>
 ```
 
+## ALTERANDO OS DADOS OU O LAYOUT DO POPUP
+Além de utilizarmos as TAGs disponibilizadas e demonstradas neste artigo, podemos também alterar ou adicionar nossas próprias TAGs XML, assim como alterar o Layout do popup exibido. 
+
+Para isso basta editar os arquivos HelpInsight.xsl e HelpInsight.css (HelpInsight_Dark.css para quem usa o tema dark do IDE) que ficam na subpasta ObjRepos do diretório de instalação do RAD Studio.
+
+Para mim C:\Program Files (x86)\Embarcadero\Studio\20.0\ObjRepos\ uma vez dentro deste diretório devemos acessar a subpasta de idioma, no meu caso "en" para Inglês. Para mim o caminho completo para acessar os arquivos são:
+```
+C:\Program Files (x86)\Embarcadero\Studio\20.0\ObjRepos\en\HelpInsight.xsl
+C:\Program Files (x86)\Embarcadero\Studio\20.0\ObjRepos\en\HelpInsight.css
+C:\Program Files (x86)\Embarcadero\Studio\20.0\ObjRepos\en\HelpInsight_Dark.css
+```
+
+
+<br/>
+
 > [!IMPORTANT]
 > ⭐ Não se esqueça de deixar sua **estrela** para ajudar a propagar o repositório.
 
