@@ -129,7 +129,7 @@ Esses comentários devem estar imediatamente acima do identificador, e devem com
 /// <comments> Adicionar comentários sobre ... </comments>
 ```
 ```
-/// <exception cref="ArgumentNullException"> Informar informações sobre exceções. Exemplo: se o parâmetro não for informado ... </exception>
+/// <exception cref="ArgumentNullException"> Informações sobre exceções. Ex.: se o parâmetro não for informado... </exception>
 ```
 ```
 <para> Adiciona um parágrafo </para>
