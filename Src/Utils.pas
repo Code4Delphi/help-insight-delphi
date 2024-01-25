@@ -24,7 +24,7 @@ type
     /// </remarks>
     /// <comments> <para> Caso seja necessário, pode ser adicionado comentários. </para>
     ///   <para> Outras tags aceitas: </para>
-    ///   <para> p ou P: Paragrafo </para>
+    ///   <para> p ou P: parágrafo </para>
     ///   <para> b ou B: <b> Negrito </b> </para>
     ///   <para> i ou I: <i> Itálico </i> </para>
     ///   <para> ------------------------------------------- </para>

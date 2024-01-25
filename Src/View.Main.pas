@@ -20,6 +20,9 @@ uses
   Utils;
 
 type
+  /// <summary> Para realizar o cálculo, use tcSim; caso contrário, use tcNao. </summary>
+  TCalcular = (tcSim, tcNao);
+
   TViewMain = class(TForm)
     pnBackTop: TPanel;
     btnUsandoEmMetodos: TButton;
@@ -93,7 +96,7 @@ var
   /// <summary> 'Isso não sera exibido' </summary>
   LTest: string;
 begin
-  LTest := 'Recurso funciona apenas para variáveis de instancias (declaradas no escopo private ou public das classes)';
+  LTest := 'Recurso funciona apenas para variáveis de instância (declaradas no escopo private ou public das classes)';
   ShowMessage(LTest);
 end;
 

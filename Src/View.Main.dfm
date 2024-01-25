@@ -609,10 +609,6 @@ object ViewMain: TViewMain
           BevelOuter = bvNone
           ParentBackground = False
           TabOrder = 0
-          ExplicitLeft = 15
-          ExplicitTop = 36
-          ExplicitWidth = 185
-          ExplicitHeight = 41
         end
       end
     end
