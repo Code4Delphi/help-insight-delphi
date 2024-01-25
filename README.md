@@ -151,7 +151,10 @@ Esses comentários devem estar imediatamente acima do identificador, e devem com
 <see cref="string"/>
 ```
 
+> [!IMPORTANT]
+> ⭐ Não se esqueça de deixar sua **estrela** para ajudar a propagar o repositório.
 
+[Voltar para o Topo](#help-insight-delphi) 
 
 
 
