@@ -87,14 +87,26 @@ Esses comentários devem estar imediatamente acima do identificador, e devem com
 ```
 /// <exception cref="ArgumentNullException"> Se o parametro não for informado ... </exception>
 ```
-* Adicionar um parágrafo:
 ```
 <para> Parágrafo </para>
 ```
-ou:
 ```
-<p> parágrafo </p>
+<p> Parágrafo </p>
 ```
+```
+<b> Texto em negrito </b>
+```
+```
+<i> Texto em itálico </i>
+```
+```
+<c> Texto com fonte de largura fixa (Courier New) </c>
+```
+* Referência a um tipo, símbolo ou identificador específico:
+```
+<see cref="string"/>
+```
+
 
 
 
