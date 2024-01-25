@@ -108,34 +108,34 @@ Esses comentários devem estar imediatamente acima do identificador, e devem com
 
 ## 📄 TAGS XMLS QUE PODEM SER UTILIZADAS
 ```
-/// <summary> Add Resumo </summary>
+/// <summary> Adicinar um resumo </summary>
 ```
 ```
-/// <param name="nome-do-parametro"> Informar um valor <see cref="Double"/>. </param>
+/// <param name="nome-do-parametro"> Informar os parâmetros do método <see cref="Double"/>. </param>
 ```
 ```
-/// <returns> O retorno será... </returns>
+/// <returns> Informar dados do retorno </returns>
 ```
 ```
-/// <permission cref="PermissionType"> Recurso permitido para ... </permission>
+/// <permission cref="PermissionType"> Dados sobre permissões ... </permission>
 ```
 ```
-/// <remarks> Observações para este ... </remarks>
+/// <remarks> Adicionar observações ... </remarks>
 ```
 ```
 /// <code> Adicionar exemplos de códigos fontes de como usar </code>
 ```
 ```
-/// <comments> Add comentário sobre ... </comments>
+/// <comments> Adicionar comentários sobre ... </comments>
 ```
 ```
-/// <exception cref="ArgumentNullException"> Se o parametro não for informado ... </exception>
+/// <exception cref="ArgumentNullException"> Informar informações sobre exceções. Exemplo: se o parâmetro não for informado ... </exception>
 ```
 ```
-<para> Parágrafo </para>
+<para> Adiciona um parágrafo </para>
 ```
 ```
-<p> Parágrafo </p>
+<p> Adiciona um parágrafo </p>
 ```
 ```
 <b> Texto em negrito </b>
