@@ -67,7 +67,7 @@ Esses comentários devem estar imediatamente acima do identificador, e devem com
 
 ![Images/Add-Summary-Simples.png](https://github.com/Code4Delphi/help-insight-delphi/blob/master/Images/Add-Summary-Simples.png)
 
-> * Note que o texto adicionado na tag \<summary> é exibido no popup menu do Help Insight
+> Note que o texto adicionado na tag \<summary> é exibido no popup menu do Help Insight
 
 <br/>
 
