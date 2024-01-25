@@ -185,9 +185,8 @@ C:\Program Files (x86)\Embarcadero\Studio\20.0\ObjRepos\en\HelpInsight_Dark.css
 <br/>
 
 ## 🔗LINKS ÚTEIS
-- [Help Insight docwiki.embarcadero](https://docwiki.embarcadero.com/RADStudio/Athens/en/Help_Insight)
-- [XML Documentation Comments docwiki.embarcadero](https://docwiki.embarcadero.com/RADStudio/Athens/en/XML_Documentation_Comments)
-- <a  target="_blank" href="https://docwiki.embarcadero.com/RADStudio/Athens/en/Warning_messages_(Delphi)"> Lista de Warning Messages </a>
+- [Help Insight (docwiki embarcadero)](https://docwiki.embarcadero.com/RADStudio/Athens/en/Help_Insight)
+- [XML Documentation Comments (docwiki embarcadero)](https://docwiki.embarcadero.com/RADStudio/Athens/en/XML_Documentation_Comments)
 
 <br/>
 
