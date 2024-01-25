@@ -60,7 +60,43 @@ Esses comentários devem estar imediatamente acima do identificador, e devem com
 
 ![Images/Add-Summary-Simples.png](https://github.com/Code4Delphi/help-insight-delphi/blob/master/Images/Add-Summary-Simples.png)
 
-Note que o texto adicionado na tag \<summary> é exibido no popup menu do Help Insight
+* Note que o texto adicionado na tag \<summary> é exibido no popup menu do Help Insight
+
+## 📄 TAGS XMLS QUE PODEM SER UTILIZADAS
+```
+/// <summary> Add Resumo </summary>
+```
+```
+/// <param name="nome-do-parametro"> Informar um valor <see cref="Double"/>. </param>
+```
+```
+/// <returns> O retorno será... </returns>
+```
+```
+/// <permission cref="PermissionType"> Recurso permitido para ... </permission>
+```
+```
+/// <remarks> Observações para este ... </remarks>
+```
+```
+/// <code> Adicionar exemplos de códigos fontes de como usar </code>
+```
+```
+/// <comments> Add comentário sobre ... </comments>
+```
+```
+/// <exception cref="ArgumentNullException"> Se o parametro não for informado ... </exception>
+```
+* Adicionar um parágrafo:
+```
+<para> Parágrafo </para>
+```
+ou:
+```
+<p> parágrafo </p>
+```
+
+
 
 
 
