@@ -10,7 +10,7 @@
   <img alt="Code4Delphi" height="100" src="https://github.com/Code4Delphi/diretivas-de-compilacao-delphi/assets/33873267/7191065f-96f6-46ed-aae4-4c4d3027b717">
 </p> -->
 
-Help Insight, um recurso do IDE do Delphi que exibe um popup com uma breve descrição sobre o identificador (classe, método, função, variável, ...) na qual o cursor do mouse está posicionado.
+Help Insight, um recurso do IDE do Delphi que exibe um popup com uma breve descrição sobre o identificador (classe, procedure, function, variável, constante, enumerado ...) na qual o cursor do mouse está posicionado.
 
 Veremos neste repositório/artigo criar e personalizar Help Insight para nassas aplicações.
 
@@ -150,6 +150,11 @@ Esses comentários devem estar imediatamente acima do identificador, e devem com
 ```
 <see cref="string"/>
 ```
+
+## ONDE O HELP INSIGHT PODE SER USADO?
+* Help Insight podem ser utilizados em classes, procedures, functions, constantes, enumerados e para variáveis de instância. Os recurso do Help Insight **não são suportados** para variáveis locais (declaradas nos métodos)
+
+<br/>
 
 ## ALTERANDO OS DADOS OU O LAYOUT DO POPUP
 Além de utilizarmos as TAGs disponibilizadas e demonstradas neste artigo, podemos também alterar ou adicionar nossas próprias TAGs XML, assim como alterar o Layout do popup exibido. 
