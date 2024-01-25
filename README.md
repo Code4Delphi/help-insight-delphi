@@ -73,11 +73,11 @@ Esses comentários devem estar imediatamente acima do identificador, e devem com
 
 ## Exemplo utilizando diversas TAGs aceitas:
 ```
-    /// <summary> Summary/resumo: Realiza e retorna a multiplicação de dois valor fornecidos como parâmetros.</summary>
-    /// <param name="AValor1"> Informar o primeiro valor <see cref="Double"/> a ser multiplicado. </param>
-    /// <param name="AValor2"> Informar o segundo valor <see cref="Double"/> a ser multiplicado. </param>
-    /// <returns> O retorno será a multiplicação do primeiro com o segundo parâmetro</returns>
-    /// <permission cref="PermissionType"> Este método é permitido a todos que possúem acesso a está unit. </permission>
+    /// <summary> Adiciona um resumo ... </summary>
+    /// <param name="AValor1"> Primeiro parâmetro do tipo <see cref="Double"/> para ... </param>
+    /// <param name="AValor2"> Segundo parâmetro do tipo <see cref="Double"/> para ... </param>
+    /// <returns> O retorno será ... </returns>
+    /// <permission cref="PermissionType"> Este método é permitido a ... </permission>
     /// <remarks>
     ///   Observações: Forma de usar o código:
     ///   <code>
