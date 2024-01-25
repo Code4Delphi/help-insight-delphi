@@ -39,6 +39,8 @@ Help Insight, é um recurso do IDE do Delphi que apresenta um popup com uma brev
 Também é possível invocar o Help Insight precionando as teclas CTRL + SHIFT + H.
 
 
+<br/>
+
 ## HELP INSIGHT PADRÕES
 * Por padrão, o IDE do Delphi gera automáticamente e exibe dados básicos dos identificadores, com as seguintes informações:
 
@@ -50,6 +52,8 @@ Também é possível invocar o Help Insight precionando as teclas CTRL + SHIFT +
  
 Tudo isso é gerado automáticamente em tempo de edição, ou seja, **sem necessitar que o código seja compilado**.
 
+<br/>
+
 ## CUSTOMIZANDO O HELP INSIGHT
 Embora as informações geradas automáticamente pelo IDE já nos ajudem bastante, o Delphi nos proporciona a possibilidade de customizar de uma forma muito simples, o conteúdo e até mesmo o designer do popup exibido.
 
@@ -57,10 +61,50 @@ Com isso podemos adicionar mais detalhes, e criar uma espécie de "documentaçã
 Para isso, devemos adicionar comentários com uma formatação especial ao nosso código fonte. 
 
 Esses comentários devem estar imediatamente acima do identificador, e devem começar com **/// (três barras)** seguido por uma tag XML reconhecida pelo Help Insight viewer, como no exemplo a seguir:
+```
+/// <summary> Em resumo este método faz ... </summary>
+```
 
 ![Images/Add-Summary-Simples.png](https://github.com/Code4Delphi/help-insight-delphi/blob/master/Images/Add-Summary-Simples.png)
 
-* Note que o texto adicionado na tag \<summary> é exibido no popup menu do Help Insight
+> * Note que o texto adicionado na tag \<summary> é exibido no popup menu do Help Insight
+
+<br/>
+
+## Exemplo utilizando diversas TAGs aceitas:
+```
+    /// <summary> Summary/resumo: Realiza e retorna a multiplicação de dois valor fornecidos como parâmetros.</summary>
+    /// <param name="AValor1"> Informar o primeiro valor <see cref="Double"/> a ser multiplicado. </param>
+    /// <param name="AValor2"> Informar o segundo valor <see cref="Double"/> a ser multiplicado. </param>
+    /// <returns> O retorno será a multiplicação do primeiro com o segundo parâmetro</returns>
+    /// <permission cref="PermissionType"> Este método é permitido a todos que possúem acesso a está unit. </permission>
+    /// <remarks>
+    ///   Observações: Forma de usar o código:
+    ///   <code>
+    ///     <para> LResult := THelpInsightUtils.MultiplicarValores(10 + 20.5); </para>
+    ///     <para> ShowMessage(LResult.ToString); </para>
+    ///   </code>
+    /// </remarks>
+    /// <comments> <para> Caso seja necessário, pode ser adicionado comentários. </para>
+    ///   <para> Outras tags aceitas: </para>
+    ///   <para> p ou P: parágrafo </para>
+    ///   <para> b ou B: <b> Negrito </b> </para>
+    ///   <para> i ou I: <i> Itálico </i> </para>
+    ///   <para> ------------------------------------------- </para>
+    ///   <para> Texto em fonte normal: </para>
+    ///   <para> III </para>
+    ///   <para> WWW </para>
+    ///   <para> <c>Texto em fonte de largura fixa:</c> </para>
+    ///   <para> <c>III</c> </para>
+    ///   <para> <c>WWW</c> </para>
+    /// </comments>
+    /// <comments> <para> Este é a comentário 2 e será agrupada ao comentário 1. </para></comments>
+    /// <exception cref="ArgumentNullException">
+    ///   Se os parâmetros <c>AValor1</c> ou <c>AValor2</c> for um número negativo, uma exceção será gerada.
+    /// </exception>
+```
+
+<br/>
 
 ## 📄 TAGS XMLS QUE PODEM SER UTILIZADAS
 ```
