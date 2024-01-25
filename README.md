@@ -40,12 +40,12 @@ Veremos neste repositório/artigo criar e personalizar Help Insight para nassas 
 > ### ⭐ Não se esqueça de deixar sua estrela para ajudar a propagar o repositório.
 
 ## O QUE É HELP INSIGHT?
-Help Insight, esse é um recurso do IDE do Delphi que apresenta um popup com uma breve descrição sobre o identificador (classe, procedure, function, variável, Enumerados, ...) na qual o cursor do mouse está posicionado no Editor de Códigos.
-Também é possível invocar o Help Insight através do pressionamento das teclas CTRL + SHIFT + H.
+Help Insight, é um recurso do IDE do Delphi que apresenta um popup com uma breve descrição sobre o identificador (classe, procedure, function, variável, Enumerado, ...) a qual o cursor do mouse está posicionado no Editor de Códigos.
+Também é possível invocar o Help Insight precionando as teclas CTRL + SHIFT + H.
 
 
 ## HELP INSIGHT PADRÕES
-* Por padrão, o IDE do Delphi gera e exibe dados básicos, com as seguintes informações:
+* Por padrão, o IDE do Delphi gera automáticamente e exibe dados básicos dos identificadores, com as seguintes informações:
 
 ![Help-Insight-Default-Variables.png](https://github.com/Code4Delphi/help-insight-delphi/blob/master/Images/Help-Insight-Default-Variables.png)
 
@@ -56,10 +56,12 @@ Também é possível invocar o Help Insight através do pressionamento das tecla
 Tudo isso é gerado automáticamente em tempo de edição, ou seja, **sem necessitar que o código seja compilado**.
 
 ## CUSTOMIZANDO O HELP INSIGHT
-Embora as informações geradas automáticamente pelo IDE já nos ajudem bastante, o Delphi nos proporciona a possibilidade de customizar o conteúdo e até mesmo o designer do popup exibido.
+Embora as informações geradas automáticamente pelo IDE já nos ajudem bastante, o Delphi nos proporciona a possibilidade de customizar de uma forma muito simples, o conteúdo e até mesmo o designer do popup exibido.
 
 Com isso podemos adicionar mais detalhes, e criar uma espécie de "documentação" de nossos identificadores.
-Para isso, devemos adicionar comentários com uma formatados especial ao nosso código fonte. Esses comentários devem estar imediatamente acima do identificador, e devem começar com /// (três barras) seguido por uma tag XML reconhecida pelo Help Insight viewer, como no exemplo a seguir:
+Para isso, devemos adicionar comentários com uma formatados especial ao nosso código fonte. 
+
+Esses comentários devem estar imediatamente acima do identificador, e devem começar com **/// (três barras)** seguido por uma tag XML reconhecida pelo Help Insight viewer, como no exemplo a seguir:
 
 
 
