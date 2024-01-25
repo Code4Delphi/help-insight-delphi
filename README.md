@@ -176,6 +176,9 @@ C:\Program Files (x86)\Embarcadero\Studio\20.0\ObjRepos\en\HelpInsight.css
 C:\Program Files (x86)\Embarcadero\Studio\20.0\ObjRepos\en\HelpInsight_Dark.css
 ```
 
+* Veja um exemplo de como podemos alterar a estrutura e o layout do popup do Help Insight:
+![PopupMenu-Alterado.png](https://github.com/Code4Delphi/help-insight-delphi/blob/master/Images/PopupMenu-Alterado.png)
+
 
 ## 🔗LINKS ÚTEIS
 - [Help Insight (docwiki embarcadero)](https://docwiki.embarcadero.com/RADStudio/Athens/en/Help_Insight)
