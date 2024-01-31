@@ -70,7 +70,7 @@ Esses comentários devem estar imediatamente acima do identificador, e devem com
 
 <br/>
 
-## Exemplo utilizando diversas TAGs aceitas:
+## EXEMPLO UTILIZANDO DIVERSAS TAGS ACEITAS:
 ```
     /// <summary> Adiciona um resumo ... </summary>
     /// <param name="AValor1"> Primeiro parâmetro do tipo <see cref="Double"/> para ... </param>
