@@ -159,7 +159,7 @@ Esses comentários devem estar imediatamente acima do identificador, e devem com
 - [x] Constantes
 - [x] Enumerados
 - [x] Variáveis de instância (declaradas no escopo private, protected, public ou published das classes)'
-- [ ] Variáveis locais **não são suportados** pelo Help Insight
+- [ ] Variáveis locais **NÃO SÃO SUPORTADOS** pelo Help Insight
 
 <br/>
 
