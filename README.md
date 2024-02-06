@@ -26,7 +26,7 @@
 
 ## O QUE É HELP INSIGHT?
 
-Help Insight (informações de ajuda), um recurso do IDE do Delphi que exibe um popup com uma breve descrição sobre o identificador (classe, procedure, function, variável, constante, enumerado...) a qual o cursor do mouse está posicionado no Editor de Códigos. Também é possível invocar o Help Insight precionando as teclas CTRL + SHIFT + H.
+Help Insight (informações de ajuda), um recurso do IDE do Delphi que exibe um popup com uma breve descrição sobre o identificador (classe, procedure, function, variável, constante, enumerado...) a qual o cursor do mouse está posicionado no Editor de Códigos. Também é possível invocar o Help Insight precionando as teclas CTRL + SHIFT + H
 
 Veremos neste repositório/artigo criar e personalizar Help Insight para nossas aplicações.
 
