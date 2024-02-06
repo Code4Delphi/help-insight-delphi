@@ -145,21 +145,21 @@ Esses comentários devem estar imediatamente acima do identificador, e devem com
 ```
 <c> Texto com fonte de largura fixa (Courier New) </c>
 ```
-* Referência a um tipo, símbolo ou identificador específico:
+Referência a um tipo, símbolo ou identificador específico:
 ```
 <see cref="string"/>
 ```
 
 ## ONDE O HELP INSIGHT PODE SER USADO?
-* Help Insight podem ser utilizados em:
+Help Insight podem ser utilizados em:
 
-- [x] Classes
-- [x] Procedures
-- [x] Functions
-- [x] Constantes
-- [x] Enumerados
-- [x] Variáveis de instância (declaradas no escopo private, protected, public ou published das classes)'
-- [ ] Variáveis locais **NÃO SÃO SUPORTADAS** pelo Help Insight
+✔️ Classes <br/>
+✔️ Procedures <br/>
+✔️ Functions <br/>
+✔️ Constantes <br/>
+✔️ Enumerados <br/>
+✔️ Variáveis de instância (declaradas no escopo private, protected, public ou published das classes)' <br/>
+❌Variáveis locais **NÃO SÃO SUPORTADAS** pelo Help Insight
 
 <br/>
 
