@@ -159,9 +159,8 @@ Help Insight podem ser utilizados em:
 ✔️ Constantes <br/>
 ✔️ Enumerados <br/>
 ✔️ Variáveis de instância (declaradas no escopo private, protected, public ou published das classes)' <br/>
-❌Variáveis locais **NÃO SÃO SUPORTADAS** pelo Help Insight
+❌ Variáveis locais **NÃO SÃO SUPORTADAS** pelo Help Insight
 
-<br/>
 
 ## ALTERANDO OS DADOS E LAYOUT DO POPUP
 Além de utilizarmos as TAGs disponibilizadas e demonstradas neste artigo, podemos também alterar ou adicionar nossas próprias TAGs XML, assim como alterar o Layout do popup exibido. 
@@ -175,7 +174,7 @@ C:\Program Files (x86)\Embarcadero\Studio\20.0\ObjRepos\en\HelpInsight.css
 C:\Program Files (x86)\Embarcadero\Studio\20.0\ObjRepos\en\HelpInsight_Dark.css
 ```
 
-* Veja um exemplo de como podemos alterar a estrutura e o layout do popup do Help Insight:
+Veja um exemplo de como podemos alterar a estrutura e o layout do popup do Help Insight:
 ![PopupMenu-Alterado.png](https://github.com/Code4Delphi/help-insight-delphi/blob/master/Images/PopupMenu-Alterado.png)
 
 
