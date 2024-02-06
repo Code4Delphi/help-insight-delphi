@@ -145,23 +145,22 @@ These comments must be immediately above the identifier, and must begin with **/
 ```
 <c> Texto com fonte de largura fixa (Courier New) </c>
 ```
-* Reference to a specific type, symbol or identifier:
+Reference to a specific type, symbol or identifier:
 ```
 <see cref="string"/>
 ```
 
 ## WHERE CAN HELP INSIGHT BE USED?
-* Help Insight can be used in:
+Help Insight can be used in:
 
-- [x] Classes
-- [x] Procedures
-- [x] Functions
-- [x] Constantes
-- [x] Enumerados
-- [x] Instance variables (declared in the private, protected, public or published scope of the classes)'
-- [ ] Local variables **ARE NOT SUPPORTED** by Help Insight
+✔️ Classes <br/>
+✔️ Procedures <br/>
+✔️ Functions <br/>
+✔️ Constantes <br/>
+✔️ Enumerados <br/>
+✔️ Instance variables (declared in the private, protected, public or published scope of the classes) <br/>
+❌ Local variables **ARE NOT SUPPORTED** by Help Insight
 
-<br/>
 
 ## CHANGING THE POPUP DATA AND LAYOUT
 In addition to using the TAGs available and demonstrated in this article, we can also change or add our own XML TAGs, as well as change the Layout of the displayed popup.
@@ -175,7 +174,7 @@ C:\Program Files (x86)\Embarcadero\Studio\20.0\ObjRepos\en\HelpInsight.css
 C:\Program Files (x86)\Embarcadero\Studio\20.0\ObjRepos\en\HelpInsight_Dark.css
 ```
 
-* Here's an example of how we can change the structure and layout of the Help Insight popup:
+Here's an example of how we can change the structure and layout of the Help Insight popup:
 ![PopupMenu-Alterado.png](https://github.com/Code4Delphi/help-insight-delphi/blob/master/Images/PopupMenu-Alterado.png)
 
 
