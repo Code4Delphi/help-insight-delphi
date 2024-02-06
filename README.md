@@ -1,4 +1,6 @@
-### Alterar idioma
+# Help Insight **Delphi**
+
+## Alterar idioma
 [![Static Badge](https://img.shields.io/badge/Portugu%C3%AAs-(ptBR)-green)](https://github.com/Code4Delphi/help-insight-delphi)
 [![Static Badge](https://img.shields.io/badge/English-(en)-red)](https://github.com/Code4Delphi/help-insight-delphi/blob/master/README.en.md)
 
@@ -21,9 +23,8 @@
     <img src="https://img.shields.io/badge/E--mail-contato%40code4delphi.com.br-yellowgreen?logo=maildotru&logoColor=yellowgreen">
   </a>
 </p>
-<br/>
 
-# Help Insight **Delphi**
+## O QUE É O HELP INSIGHT
 
 Help Insight, um recurso do IDE do Delphi que exibe um popup com uma breve descrição sobre o identificador (classe, procedure, function, variável, constante, enumerado ...) a qual o cursor do mouse está posicionado no Editor de Códigos. Também é possível invocar o Help Insight precionando as teclas CTRL + SHIFT + H.
 
