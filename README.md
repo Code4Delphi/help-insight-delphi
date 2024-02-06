@@ -158,7 +158,7 @@ Help Insight podem ser utilizados em:
 ✔️ Functions <br/>
 ✔️ Constantes <br/>
 ✔️ Enumerados <br/>
-✔️ Variáveis de instância (declaradas no escopo private, protected, public ou published das classes)' <br/>
+✔️ Variáveis de instância (declaradas no escopo private, protected, public ou published das classes) <br/>
 ❌ Variáveis locais **NÃO SÃO SUPORTADAS** pelo Help Insight
 
 
