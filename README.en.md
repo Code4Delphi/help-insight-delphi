@@ -2,17 +2,6 @@
 [![Static Badge](https://img.shields.io/badge/Portugu%C3%AAs-(ptBR)-green)](https://github.com/Code4Delphi/help-insight-delphi)
 [![Static Badge](https://img.shields.io/badge/English-(en)-red)](https://github.com/Code4Delphi/help-insight-delphi/blob/master/README.en.md)
 
-
-# Help Insight **Delphi**
-
-<!--<p align="center">
-  <img alt="Code4Delphi" height="100" src="https://github.com/Code4Delphi/diretivas-de-compilacao-delphi/assets/33873267/7191065f-96f6-46ed-aae4-4c4d3027b717">
-</p> -->
-
-Help Insight, a feature of the Delphi IDE that displays a popup with a brief description of the identifier (class, procedure, function, variable, constant, enumerated...) on which the mouse cursor is positioned.
-
-In this repository/article we will see how to create and customize Help Insight for our applications.
-
 ## 📞 Contacts
 
 <p align="left">
@@ -33,10 +22,11 @@ In this repository/article we will see how to create and customize Help Insight 
   </a>
 </p>
 
-## WHAT IS IT HELP INSIGHT?
-Help Insight is a feature of the Delphi IDE that presents a popup with a brief description of the identifier (class, procedure, function, variable, Enumerated, ...) at which the mouse cursor is positioned in the Code Editor.
-It is also possible to invoke Help Insight by pressing the CTRL + SHIFT + H keys.
+# Help Insight **Delphi**
 
+Help Insight, a feature of the Delphi IDE that displays a popup with a brief description of the identifier (class, procedure, function, variable, constant, enumerated...) at which the mouse cursor is positioned in the Code Editor. It is also possible to invoke Help Insight by pressing the CTRL + SHIFT + H keys.
+
+In this repository/article we will see how to create and customize Help Insight for our applications.
 
 <br/>
 
@@ -145,21 +135,23 @@ These comments must be immediately above the identifier, and must begin with **/
 ```
 <c> Texto com fonte de largura fixa (Courier New) </c>
 ```
-* Reference to a specific type, symbol or identifier:
+Reference to a specific type, symbol or identifier:
 ```
 <see cref="string"/>
 ```
 
-## WHERE CAN HELP INSIGHT BE USED?
-* Help Insight can be used in:
+<br/>
 
-- [x] Classes
-- [x] Procedures
-- [x] Functions
-- [x] Constantes
-- [x] Enumerados
-- [x] Instance variables (declared in the private, protected, public or published scope of the classes)'
-- [ ] Local variables **ARE NOT SUPPORTED** by Help Insight
+## WHERE CAN HELP INSIGHT BE USED?
+Help Insight can be used in:
+
+✔️ Classes <br/>
+✔️ Procedures <br/>
+✔️ Functions <br/>
+✔️ Constantes <br/>
+✔️ Enumerados <br/>
+✔️ Instance variables (declared in the private, protected, public or published scope of the classes) <br/>
+❌ Local variables **ARE NOT SUPPORTED** by Help Insight
 
 <br/>
 
@@ -175,9 +167,10 @@ C:\Program Files (x86)\Embarcadero\Studio\20.0\ObjRepos\en\HelpInsight.css
 C:\Program Files (x86)\Embarcadero\Studio\20.0\ObjRepos\en\HelpInsight_Dark.css
 ```
 
-* Here's an example of how we can change the structure and layout of the Help Insight popup:
+Here's an example of how we can change the structure and layout of the Help Insight popup:
 ![PopupMenu-Alterado.png](https://github.com/Code4Delphi/help-insight-delphi/blob/master/Images/PopupMenu-Alterado.png)
 
+<br/>
 
 ## 🔗USEFUL LINKS
 - [Help Insight (docwiki embarcadero)](https://docwiki.embarcadero.com/RADStudio/Athens/en/Help_Insight)

@@ -1,19 +1,10 @@
-### Alterar idioma
+# Help Insight **Delphi**
+
+##  Alterar idioma
 [![Static Badge](https://img.shields.io/badge/Portugu%C3%AAs-(ptBR)-green)](https://github.com/Code4Delphi/help-insight-delphi)
 [![Static Badge](https://img.shields.io/badge/English-(en)-red)](https://github.com/Code4Delphi/help-insight-delphi/blob/master/README.en.md)
 
-
-# Help Insight **Delphi**
-
-<!--<p align="center">
-  <img alt="Code4Delphi" height="100" src="https://github.com/Code4Delphi/diretivas-de-compilacao-delphi/assets/33873267/7191065f-96f6-46ed-aae4-4c4d3027b717">
-</p> -->
-
-Help Insight, um recurso do IDE do Delphi que exibe um popup com uma breve descrição sobre o identificador (classe, procedure, function, variável, constante, enumerado ...) na qual o cursor do mouse está posicionado.
-
-Veremos neste repositório/artigo criar e personalizar Help Insight para nassas aplicações.
-
-## 📞 Contatos
+## Contatos
 
 <p align="left">
   <a href="https://t.me/Code4Delphi" target="_blank">
@@ -34,9 +25,10 @@ Veremos neste repositório/artigo criar e personalizar Help Insight para nassas 
 </p>
 
 ## O QUE É HELP INSIGHT?
-Help Insight, é um recurso do IDE do Delphi que apresenta um popup com uma breve descrição sobre o identificador (classe, procedure, function, variável, Enumerado, ...) a qual o cursor do mouse está posicionado no Editor de Códigos.
-Também é possível invocar o Help Insight precionando as teclas CTRL + SHIFT + H.
 
+Help Insight (informações de ajuda), um recurso do IDE do Delphi que exibe um popup com uma breve descrição sobre o identificador (classe, procedure, function, variável, constante, enumerado...) a qual o cursor do mouse está posicionado no Editor de Códigos. Também é possível invocar o Help Insight precionando as teclas CTRL + SHIFT + H
+
+Veremos neste repositório/artigo criar e personalizar Help Insight para nossas aplicações.
 
 <br/>
 
@@ -150,6 +142,8 @@ Referência a um tipo, símbolo ou identificador específico:
 <see cref="string"/>
 ```
 
+<br/>
+
 ## ONDE O HELP INSIGHT PODE SER USADO?
 Help Insight podem ser utilizados em:
 
@@ -158,9 +152,10 @@ Help Insight podem ser utilizados em:
 ✔️ Functions <br/>
 ✔️ Constantes <br/>
 ✔️ Enumerados <br/>
-✔️ Variáveis de instância (declaradas no escopo private, protected, public ou published das classes)' <br/>
+✔️ Variáveis de instância (declaradas no escopo private, protected, public ou published das classes) <br/>
 ❌ Variáveis locais **NÃO SÃO SUPORTADAS** pelo Help Insight
 
+<br/>
 
 ## ALTERANDO OS DADOS E LAYOUT DO POPUP
 Além de utilizarmos as TAGs disponibilizadas e demonstradas neste artigo, podemos também alterar ou adicionar nossas próprias TAGs XML, assim como alterar o Layout do popup exibido. 
@@ -177,6 +172,7 @@ C:\Program Files (x86)\Embarcadero\Studio\20.0\ObjRepos\en\HelpInsight_Dark.css
 Veja um exemplo de como podemos alterar a estrutura e o layout do popup do Help Insight:
 ![PopupMenu-Alterado.png](https://github.com/Code4Delphi/help-insight-delphi/blob/master/Images/PopupMenu-Alterado.png)
 
+<br/>
 
 ## 🔗LINKS ÚTEIS
 - [Help Insight (docwiki embarcadero)](https://docwiki.embarcadero.com/RADStudio/Athens/en/Help_Insight)
