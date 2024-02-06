@@ -23,17 +23,17 @@ type
     ///   </code>
     /// </remarks>
     /// <comments> <para> Caso seja necessário, pode ser adicionado comentários. </para>
-    ///   <para> Outras tags aceitas: </para>
-    ///   <para> p ou P: parágrafo </para>
-    ///   <para> b ou B: <b> Negrito </b> </para>
-    ///   <para> i ou I: <i> Itálico </i> </para>
-    ///   <para> ------------------------------------------- </para>
-    ///   <para> Texto em fonte normal: </para>
-    ///   <para> III </para>
-    ///   <para> WWW </para>
-    ///   <para> <c>Texto em fonte de largura fixa:</c> </para>
-    ///   <para> <c>III</c> </para>
-    ///   <para> <c>WWW</c> </para>
+    ///   <p> Outras tags aceitas: </p>
+    ///   <p> p ou P: parágrafo </p>
+    ///   <p> b ou B: <b> Negrito </b> </p>
+    ///   <p> i ou I: <i> Itálico </i> </p>
+    ///   <p> ------------------------------------------- </p>
+    ///   <p> Texto em fonte normal: </p>
+    ///   <p> III </p>
+    ///   <p> WWW </p>
+    ///   <p> <c>Texto em fonte de largura fixa:</c> </p>
+    ///   <p> <c>III</c> </p>
+    ///   <p> <c>WWW</c> </p>
     /// </comments>
     /// <comments> <para> Este é a comentário 2 e será agrupada ao comentário 1. </para></comments>
     /// <exception cref="ArgumentNullException">

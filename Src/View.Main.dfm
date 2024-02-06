@@ -56,7 +56,6 @@ object ViewMain: TViewMain
       Caption = 'Vari'#225'vel local (n'#227'o suportado)'
       TabOrder = 2
       OnClick = btnUsandoEmVariaveisLocaisClick
-      ExplicitTop = 142
     end
     object btnUsandoEmVariaveisDeInstancia: TButton
       Left = 20
@@ -67,7 +66,6 @@ object ViewMain: TViewMain
       Caption = 'Vari'#225'vel de inst'#226'ncia  (suportado)'
       TabOrder = 3
       OnClick = btnUsandoEmVariaveisDeInstanciaClick
-      ExplicitTop = 64
     end
     object btnConstantes: TButton
       Left = 20
@@ -78,7 +76,6 @@ object ViewMain: TViewMain
       Caption = 'Constantes (suportado)'
       TabOrder = 4
       OnClick = btnConstantesClick
-      ExplicitTop = 207
     end
   end
   object Panel6: TPanel

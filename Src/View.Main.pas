@@ -24,8 +24,6 @@ type
   TCalcular = (tcSim, tcNao);
 
   /// <summary> Usando Help Insight para classes. </summary>
-  /// <C4DTag> Texto da minha tag teste </C4DTag>
-  /// <C4DCode> ShowMessage(Self.Gerar); </C4DCode>
   TViewMain = class(TForm)
     pnBackTop: TPanel;
     btnUsandoEmMetodos: TButton;
