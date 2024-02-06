@@ -1,10 +1,10 @@
 # Help Insight **Delphi**
 
-## Alterar idioma
+##  Alterar idioma
 [![Static Badge](https://img.shields.io/badge/Portugu%C3%AAs-(ptBR)-green)](https://github.com/Code4Delphi/help-insight-delphi)
 [![Static Badge](https://img.shields.io/badge/English-(en)-red)](https://github.com/Code4Delphi/help-insight-delphi/blob/master/README.en.md)
 
-## 📞 Contatos
+## Contatos
 
 <p align="left">
   <a href="https://t.me/Code4Delphi" target="_blank">
