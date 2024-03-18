@@ -106,7 +106,7 @@ Esses comentários devem estar imediatamente acima do identificador, e devem com
 
 ## 📄 TAGS XMLS QUE PODEM SER UTILIZADAS
 ```
-/// <summary>Adicinar_um_resumo</summary>
+///<summary>Adicinar_um_resumo</summary>
 ```
 ```
 /// <param name="nome-do-parametro"> Informar os parâmetros do método <see cref="Double"/>. </param>
