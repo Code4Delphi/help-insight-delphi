@@ -22,9 +22,10 @@ uses
 
 type
   /// <summary> Usando em enums, use tcSim; caso contrário, use tcNao. </summary>
+  /// <version> 1.0.0 </version>
   TCalcular = (tcSim, tcNao);
 
-  /// <summary> Usando Help Insight para classes. </summary>
+  /// <summary> Usando Help Insight para classes - YouTube. </summary>
   TViewMain = class(TForm)
     pnBackTop: TPanel;
     btnUsandoEmMetodos: TButton;
@@ -46,14 +47,16 @@ type
     btnUsandoEmVariaveisLocais: TButton;
     btnUsandoEmVariaveisDeInstancia: TButton;
     btnConstantes: TButton;
+    Button1: TButton;
     procedure btnUsandoEmMetodosClick(Sender: TObject);
     procedure btnUsandoEmEnumsClick(Sender: TObject);
     procedure lbRepositorioClick(Sender: TObject);
     procedure btnUsandoEmVariaveisDeInstanciaClick(Sender: TObject);
     procedure btnUsandoEmVariaveisLocaisClick(Sender: TObject);
     procedure btnConstantesClick(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
   private
-    /// <summary> Usando Help Insight para variáveis de instância </summary>
+    /// <summary> Usando Help Insight para variáveis de instância - YouTUbe.</summary>
     FTest: string;
   public
 
@@ -104,6 +107,17 @@ begin
   ShowMessage(LTest);
 end;
 
+procedure TViewMain.Button1Click(Sender: TObject);
+const
+  /// <summary> Esta constante de teste
+  ///  <p> linha 2 </p>
+  ///  <p> <b> Linha 3 </b> </p>
+  ///  </summary>
+  TESTANDO = 'tSTE';
+begin
+
+end;
+
 procedure TViewMain.btnUsandoEmVariaveisDeInstanciaClick(Sender: TObject);
 begin
   //PARA TESTAR: REPOUSE O MOUSE SOBRE FTest
@@ -115,6 +129,10 @@ procedure TViewMain.btnConstantesClick(Sender: TObject);
 const
   /// <summary> Recurso suportado em constantes </summary>
   TESTE = 'Constante teste';
+
+var
+  /// <summary> Recurso suportado em constantes </summary>
+  LVar: Integer;
 begin
   //PARA TESTAR: REPOUSE O MOUSE SOBRE TESTE
   ShowMessage(TESTE);
