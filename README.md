@@ -24,6 +24,13 @@
   </a>
 </p>
 
+<br/>
+
+## ▶️ Vídeo de demonstração
+* [Acessar vídeo de demonstração](https://www.youtube.com/watch?v=GVwADVQ8qeI&list=PLLHSz4dOnnN1Hx0KtSwqN1Ory9HP7IDJn&index=5)
+
+<br/>
+
 ## O QUE É HELP INSIGHT?
 
 Help Insight (informações de ajuda), um recurso do IDE do Delphi que exibe um popup com uma breve descrição sobre o identificador (classe, procedure, function, variável, constante, enumerado...) a qual o cursor do mouse está posicionado no Editor de Códigos. Também é possível invocar o Help Insight precionando as teclas CTRL + SHIFT + H
@@ -99,7 +106,7 @@ Esses comentários devem estar imediatamente acima do identificador, e devem com
 
 ## 📄 TAGS XMLS QUE PODEM SER UTILIZADAS
 ```
-/// <summary> Adicinar um resumo </summary>
+///<summary>Adicinar_um_resumo</summary>
 ```
 ```
 /// <param name="nome-do-parametro"> Informar os parâmetros do método <see cref="Double"/>. </param>

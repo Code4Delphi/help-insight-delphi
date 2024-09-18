@@ -22,6 +22,13 @@
   </a>
 </p>
 
+<br/>
+
+## ▶️ Demo video
+* [Access demo video](https://www.youtube.com/watch?v=GVwADVQ8qeI&list=PLLHSz4dOnnN1Hx0KtSwqN1Ory9HP7IDJn&index=5)
+
+<br/>
+
 # Help Insight **Delphi**
 
 Help Insight, a feature of the Delphi IDE that displays a popup with a brief description of the identifier (class, procedure, function, variable, constant, enumerated...) at which the mouse cursor is positioned in the Code Editor. It is also possible to invoke Help Insight by pressing the CTRL + SHIFT + H keys.
